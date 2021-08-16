@@ -1,0 +1,194 @@
+[
+    {
+        "productId":100,
+        "productName":"PATICOMPLÉ",
+        "productPrice":550,
+        "productImg": "./assets/images/burgers/bg-paticomple.png",
+        "productDesc":"Queso pategrás, tomates marinados, lechuga capuchina y alioli",
+        "productCategory": "burger"
+    },
+    {
+        "productId":101,
+        "productName":"PARRILLERA",
+        "productPrice":560,
+        "productImg": "./assets/images/burgers/bg-parrillera.png",
+        "productDesc":"Queso provoleta con chimichurri, morcilla, morrón a la plancha, cebolla roja y ketchup ahumado",
+        "productCategory": "burger"
+    },
+    {
+        "productId":102,
+        "productName":"CUZCO HATUCHAY",
+        "productPrice":560,
+        "productImg": "./assets/images/burgers/bg-cuzcoHatuchay.png",
+        "productDesc":"Queso reggianito, batata frita, sarza (cebolla, limón, jalapeño, cilantro) y salsa Huancaína",
+        "productCategory": "burger"
+    },
+    {
+        "productId":103,
+        "productName":"GRINGA",
+        "productPrice":600,
+        "productImg": "./assets/images/burgers/bg-gringa.png",
+        "productDesc":"Queso cheddar, panceta ahumada, pepinos en pickle y ketchup",
+        "productCategory": "burger"
+    },
+    {
+        "productId":104,
+        "productName":"COSTANERA",
+        "productPrice":650,
+        "productImg": "./assets/images/burgers/bg-costanera.png",
+        "productDesc":"Queso danbo, huevo a la plancha, jamón cocido, cebolla a la plancha y mayonesa de oliva",
+        "productCategory": "burger"
+    },
+    {
+        "productId":105,
+        "productName":"CAPRICHOSA",
+        "productPrice":650,
+        "productImg": "./assets/images/burgers/bg-caprichosa.png",
+        "productDesc":"Doble hamburguesa, doble cheddar, doble panceta, cebolla caramelizada y ketchup",
+        "productCategory": "burger"
+    },
+    {
+        "productId":106,
+        "productName":"CHINGADAZO",
+        "productPrice":500,
+        "productImg": "./assets/images/burgers/bg-chigadazo.png",
+        "productDesc":"Queso pategrás, tomates frescos, escabeche de jalapeño y guacamole",
+        "productCategory": "burger"
+    },
+    {
+        "productId":107,
+        "productName":"DOÑA TOTA",
+        "productPrice":550,
+        "productImg": "./assets/images/burgers/bg-donaTota.png",
+        "productDesc":"Queso cheddar, huevo a la plancha, panceta, fideos moñito con cheddar y salsa barbacoa",
+        "productCategory": "burger"
+    },
+    {
+        "productId":108,
+        "productName":"PAMPERNIC",
+        "productPrice":650,
+        "productImg": "./assets/images/burgers/bg-pampernic.png",
+        "productDesc":"Queso danbo, tomate, lechuga capuchina, pepinos en pickle, cebolla blanca y mostaneza",
+        "productCategory": "burger"
+    },
+    {
+        "productId":109,
+        "productName":"BIEN CHETA",
+        "productPrice":650,
+        "productImg": "./assets/images/burgers/bg-biencheta.png",
+        "productDesc":"Queso azul, cebolla caramelizada, rúcula y mayonesa de berenjena",
+        "productCategory": "burger"
+    },
+    {
+        "productId":110,
+        "productName":"GINO RENNI",
+        "productPrice":600,
+        "productImg": "./assets/images/burgers/bg-gino-renni.png",
+        "productDesc":"Queso mozzarella, tomates asados, salchicha parrillera y pesto de albahaca",
+        "productCategory": "burger"
+    },
+    {
+        "productId":111,
+        "productName":"TAREA FINA",
+        "productPrice":650,
+        "productImg": "./assets/images/burgers/bg-tareaFina.png",
+        "productDesc":"Queso parmesano, ajos confitados, rúcula, mollejas a la plancha y mayonesa de lima y cilantro",
+        "productCategory": "burger"
+    },
+    {
+        "productId":112,
+        "productName":"SICILIA",
+        "productPrice":650,
+        "productImg": "./assets/images/burgers/bg-sicilia.png",
+        "productDesc":"Tomates secos, cebolla frita, rúcula, mozzarella y alioli",
+        "productCategory": "burger"
+    },
+    {
+        "productId":113,
+        "productName":"DEL BOSQUE",
+        "productPrice":650,
+        "productImg": "./assets/images/burgers/bg-delBosque.png",
+        "productDesc":"Queso ahumado, rúcula, menta, pickle de hongos de pino y mayonesa de merken",
+        "productCategory": "burger"
+    },
+    {
+        "productId":114,
+        "productName":"BIG",
+        "productPrice":700,
+        "productImg": "./assets/images/burgers/bg-big.png",
+        "productDesc":"Doble hamburguesa, doble cheddar, pepinos en pickle, cebolla, lechuga capuchina y salsa",
+        "productCategory": "burger"
+    },
+    {
+        "productId":115,
+        "productName":"AZTECA",
+        "productPrice":600,
+        "productImg": "./assets/images/burgers/bg-azteca.png",
+        "productDesc":"Queso ahumado, guacamole, aros de cebolla, rúcula, lechuga capuchina y honey mustard",
+        "productCategory": "burger"
+    },
+    {
+        "productId":116,
+        "productName":"MILANESA",
+        "productPrice":500,
+        "productImg": "./assets/images/sandwiches/milanesa.png",
+        "productDesc":"Milanesa carne, lechuga, tomate, huevo, mayonesa",
+        "productCategory": "sandwich"
+    },
+    {
+        "productId":117,
+        "productName":"GIGANTE DE CARNE",
+        "productPrice":600,
+        "productImg": "./assets/images/sandwiches/giganteCarne.png",
+        "productDesc":"Lomo, lechuga, tomate, queso, huevo, mayonesa",
+        "productCategory": "sandwich"
+    },
+    {
+        "productId":118,
+        "productName":"POLLO",
+        "productPrice":500,
+        "productImg": "./assets/images/sandwiches/pollo.png",
+        "productDesc":"Pollo, lechuga, tomate, queso, huevo, mayonesa",
+        "productCategory": "sandwich"
+    },
+    {
+        "productId":119,
+        "productName":"POLLO CON PAPAS",
+        "productPrice":500,
+        "productImg": "./assets/images/sandwiches/polloPapas.png",
+        "productDesc":"Milanesa pollo, lechuga, tomate, huevo, papas fritas",
+        "productCategory": "sandwich"
+    },
+    {
+        "productId":120,
+        "productName":"MIXTO",
+        "productPrice":600,
+        "productImg": "./assets/images/hotdogs/mixto.png",
+        "productDesc":"Doble salchicha, tocino, queso",
+        "productCategory": "hotdog"
+    },
+    {
+        "productId":121,
+        "productName":"CRUJIENTE",
+        "productPrice":500,
+        "productImg": "./assets/images/hotdogs/bacon.png",
+        "productDesc":"salchicha, tocino crujiente, queso, papas",
+        "productCategory": "hotdog"
+    },
+    {
+        "productId":122,
+        "productName":"CHICAGO",
+        "productPrice":500,
+        "productImg": "./assets/images/hotdogs/chicago.png",
+        "productDesc":"Salchicha, cebolla, tomate, chile, pepinillos",
+        "productCategory": "hotdog"
+    },
+    {
+        "productId":123,
+        "productName":"CHILI",
+        "productPrice":600,
+        "productImg": "./assets/images/hotdogs/chili.png",
+        "productDesc":"Salchicha, cebolla, chedar, salsa chili con carne",
+        "productCategory": "hotdog"
+    }
+]

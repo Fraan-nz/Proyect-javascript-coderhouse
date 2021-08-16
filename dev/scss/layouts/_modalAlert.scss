@@ -1,0 +1,32 @@
+.swal2-actions {
+	.modal-btn {
+		@include button;
+		padding: 0.5em 1em;
+	}
+	.modal-btn:hover {
+		background-color: var(--white);
+		color: var(--violet);
+	}
+	.modal-btn:focus {
+		border: none;
+		outline: none;
+		box-shadow: none;
+	}
+}
+.swal2-container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	.swal2-popup.swal2-modal {
+		.modal-title.swal2-title {
+			color: var(--white);
+		}
+		.swal2-html-container {
+			color: var(--white);
+		}
+	}
+}
+body.swal2-shown {
+	width: 100% !important;
+	padding-right: 0 !important;
+}

@@ -1,0 +1,22 @@
+.category {
+	width: 100%;
+	height: 2em;
+	background-color: var(--dark-grey);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__btn {
+		@include button;
+		border-radius: 0;
+		background-color: inherit;
+		height: 100%;
+		padding: 0 0.5rem;
+		display: flex;
+		align-items: center;
+
+		&--active {
+			color: var(--dark-grey);
+			background-color: var(--light-green);
+		}
+	}
+}

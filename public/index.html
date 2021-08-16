@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- FontAwesome -->
+		<script
+			src="https://kit.fontawesome.com/2e70ae9535.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- GoogleFonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- jquery -->
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.js"
+			integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			crossorigin="anonymous"
+		></script>
+		<!-- MaskPlugin -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"
+			integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<!-- SweetAlert -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.2/sweetalert2.all.js"
+			integrity="sha512-Qln7rU8nmkRysFoNSK570EF599jroqZr/ZYEkbDJirKOOheGwbXH4IOBk3j4oyPOdORsJEGksnboqw2yCy0yfQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<!-- MyStyles -->
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>Proyecto Final</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="top-bar">
+				<div class="icon-menu" id="icon-menu">
+					<div class="icon-menu__bar"></div>
+				</div>
+				<span class="shop-cart--mobile" id="cart-open-mb"
+					><i class="fas fa-shopping-cart"></i><span class="cart__count"></span
+				></span>
+			</div>
+			<nav class="nav-menu">
+				<span class="logo--desktop"
+					><img
+						class="logo--desktop__img"
+						src="./assets/images/logo.png"
+						alt="LOGO"
+				/></span>
+				<ul class="menu" id="main-menu">
+					<li class="menu__item">
+						<a href="#" class="menu__link menu--active">HOME</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">CONTACTO</a>
+					</li>
+				</ul>
+				<span class="shop-cart--desktop" id="cart-open-dsk"
+					><i class="fas fa-shopping-cart"></i><span class="cart__count"></span
+				></span>
+			</nav>
+		</header>
+		<section class="slider-container">
+			<div class="title-container">
+				<h1 class="slider__title">NAIG`S GRILL</h1>
+				<span class="slider__subtitle">SINCE 2020</span>
+			</div>
+			<div class="slider" id="slider">
+				<div class="slider__section">
+					<img
+						src="../public/assets/images/burgerSlider.jpg"
+						alt="img1"
+						class="slider__img"
+					/>
+				</div>
+				<div class="slider__section">
+					<img
+						src="../public/assets/images/hotdogSlider.jpg"
+						alt="img2"
+						class="slider__img"
+					/>
+				</div>
+				<div class="slider__section">
+					<img
+						src="../public/assets/images/sandwichSlider.jpg"
+						alt="img3"
+						class="slider__img"
+					/>
+				</div>
+				<div class="slider__section">
+					<img
+						src="../public/assets/images/grillSlider.jpg"
+						alt="img3"
+						class="slider__img"
+					/>
+				</div>
+			</div>
+			<span class="slider__btn slider__btn--left" id="btn-left"
+				><i class="fas fa-chevron-circle-left"></i
+			></span>
+			<span class="slider__btn slider__btn--right" id="btn-right">
+				<i class="fas fa-chevron-circle-right"></i>
+			</span>
+		</section>
+		<div class="category">
+			<a href="#" class="category__btn category__btn--active" id="all">TODO</a>
+			<a href="#" class="category__btn" id="burger">BURGERS</a>
+			<a href="#" class="category__btn" id="hotdog">HOTDOGS</a>
+			<a href="#" class="category__btn" id="sandwich">SÁNDWICHES</a>
+		</div>
+		<section class="products-container" id="products-container"></section>
+
+		<section class="cart-container" id="cart-container">
+			<div class="cart cart--move">
+				<h3 class="cart__title">Carrito de Compras</h3>
+				<span class="cart__close" id="cart-close"
+					><i class="fas fa-times"></i
+				></span>
+				<div class="cart__items" id="cart-items"></div>
+			</div>
+
+			<div class="payment payment--hide">
+				<span class="cart__close" id="payment-close"
+					><i class="fas fa-times"></i
+				></span>
+
+				<div class="credit-card" id="credit-card">
+					<img
+						src="./assets/images/chip.png"
+						alt="chip"
+						class="credit-card__chip"
+					/>
+					<div class="credit-card__data">
+						<div class="credit-card__number">
+							<span class="credit-card__label">Número Tarjeta</span>
+							<span id="showNumber">#### #### #### ####</span>
+						</div>
+						<div class="credit-card__name">
+							<span class="credit-card__label">Nombre Tarjeta</span>
+							<span id="showName">###### ######</span>
+						</div>
+						<div class="container-bottom">
+							<div class="credit-card__exp">
+								<span class="credit-card__label">Vencimiento</span>
+								<span id="showDate">MM/AA</span>
+							</div>
+							<div class="credit-card__cvv">
+								<span class="credit-card__label">CVV</span>
+								<span id="showcvv">####</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<form class="payment-form">
+					<div class="data__container">
+						<label for="numberCard">Número Tarjeta</label>
+						<input
+							type="text"
+							id="numberCard"
+							class="payment__number"
+							required
+						/>
+					</div>
+					<div class="data__container">
+						<label for="nameCard">Nombre Tarjeta</label>
+						<input type="text" id="nameCard" class="payment__name" required />
+					</div>
+					<div class="container-bottom">
+						<div class="data__container">
+							<label for="dateCard">Vencimiento</label>
+							<input type="text" id="dateCard" class="payment__exp" required />
+						</div>
+						<div class="data__container">
+							<label for="cvvCard">CVV</label>
+							<input type="text" id="cvvCard" class="payment__cvv" required />
+						</div>
+					</div>
+					<button type="submit" class="pay__btn" id="payConfirm">
+						Confirmar Compra
+					</button>
+				</form>
+			</div>
+		</section>
+		<script src="./js/scripts.js" type="module"></script>
+	</body>
+</html>

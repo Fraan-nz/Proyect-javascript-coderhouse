@@ -1,0 +1,11 @@
+@import "./scss/normalize";
+@import "./scss/helpers/variables";
+@import "./mixins/elements";
+@import "./scss/layouts/header";
+@import "./scss/layouts/slider";
+@import "./layouts/products";
+@import "./layouts/cart";
+@import "./layouts/categoryMenu";
+@import "./layouts/payment";
+@import "./layouts/modalAlert";
+@import "./scss/mixins/breakpoints";
