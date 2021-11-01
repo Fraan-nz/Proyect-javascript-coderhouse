@@ -1,11 +1,11 @@
 //import {productRender} from "../dinamicViews/renders.js";
 import { categoryMenu } from "./category.js";
-import {productRender} from "../dinamicViews/renders.js";
+import { productRender } from "../dinamicViews/renders.js";
 
 //Utilizo la base de datos para renderizar cada producto existente
-export const loadDb = ()=> {
-    $.getJSON("./db/products.json", (prod)=> {
-        productRender(prod);
-        categoryMenu(prod);
-    })
-}
+export const loadDb = () => {
+	$.getJSON("./public/db/products.json", (prod) => {
+		productRender(prod);
+		categoryMenu(prod);
+	});
+};
